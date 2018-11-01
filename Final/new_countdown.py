@@ -174,7 +174,7 @@ def generate_scrambles(num, scramble_length):
     return scrambles
 
 def run_tests():
-    scram = generate_scrambles(1000, 9)
+    scram = generate_scrambles(100, 9)
     print "longest_word:\n"
     time_function(longest_word, scram)
     print "longest_word_new:\n"
